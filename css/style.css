@@ -14,6 +14,7 @@ div {
 #logo {
     background-color: black;
     color: white;
+    padding: 0 10px 0 10px;
 }
 #superior div {
     display: inline-block;
@@ -33,16 +34,20 @@ div {
 #superior p {
     text-align: center;
 }
+.hide {
+    display: none;
+}
+
 
 /* B */
 #content {
     margin-top: 20px;
 }
 #content div {
-    border: solid;
     width: 300px;
     height:412px;
     float: left;
+    margin: 0 5px 0 5px;
 }
 #content img {
     width: 100%;
@@ -50,4 +55,23 @@ div {
 }
 #content .imgItem {
     overflow: hidden;
+}
+#content .cost {
+    position: relative;
+    height: 109.8px;
+    bottom: 110px;
+    background-color: white;
+    border-top: solid 6px antiquewhite;
+}
+#content button {
+    position: relative;
+    left: 150px;
+    top: 20px;
+    border: solid rgb(143, 10, 10);
+    color: rgb(143, 10, 10);
+    padding: 2px 20px;
+    background: white;
+}
+#content button:hover {
+    box-shadow: 0 0 10px blue;
 }
