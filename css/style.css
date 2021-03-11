@@ -24,18 +24,34 @@ div {
     max-height: 85px;
 }
 #superior img {
-    width: 30px;
+    width: 33px;
+    border: solid;
+    position: relative;
+    top: 9px;
 }
 #superior button{
     height: 40px;
     position: relative;
     bottom: 5px;
+    border: solid;
+    background-color: transparent;
+}
+#superior button:hover {
+    color: antiquewhite;
+    background-color: black;
+    border: solid black;
 }
 #superior p {
     text-align: center;
 }
 .hide {
     display: none;
+}
+#measure {
+    position: absolute;
+    width: 20px;
+    top: -0px;
+    right: 335px;
 }
 
 
@@ -74,4 +90,10 @@ div {
 }
 #content button:hover {
     box-shadow: 0 0 10px blue;
+}
+.nameItem {
+    background-color: white;
+    border: solid  antiquewhite;
+    position: absolute;
+    top: 100px;
 }
