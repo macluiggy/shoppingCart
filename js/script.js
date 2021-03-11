@@ -47,4 +47,4 @@
         toggle.innerHTML = '$' + total;
         toggle.className = '';
     }
-}())
+}());
