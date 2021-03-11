@@ -19,6 +19,7 @@
     var numOfItems = 0;
     var measure = document.getElementById('measure');
     measure.innerHTML = numOfItems;
+    var conter = 0;
 
 
     for (let i = 0; i < addButtons.length; i++) {// para cada botton crea un evento donde se añadira el precio por cada item
@@ -46,5 +47,6 @@
 
         toggle.innerHTML = '$' + total;
         toggle.className = '';
+        prices = [] // vacia el arreglo una vez se muestre el costo, esto es para que no se sume el mismo valor total acumulado cada vez que se presiona el boton Show total
     }
 }());
